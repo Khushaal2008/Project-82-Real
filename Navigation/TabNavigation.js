@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
   bottomTabStyle: {
     backgroundColor: "lightblue",
     height: "8%",
-    borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
+    borderTopLeftRadius: 25,
+    borderTopRightRadius: 25,
     overflow: "hidden",
     position: "absolute"
   },
