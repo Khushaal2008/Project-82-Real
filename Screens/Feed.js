@@ -46,7 +46,7 @@ keyExtractor = (item,index)=>index.toString();
         else{
             return(
                 <View style={styles.container}>
-              <SafeAreaView style={styles.droidSafeArea} />
+              
               <ImageBackground style={styles.backgroundImage} source={require('../MyImage.jpg')}>
               <View style={styles.appTitle}>
                 <View style={styles.appIcon}>
@@ -85,7 +85,7 @@ keyExtractor = (item,index)=>index.toString();
       },
       appTitle: {
         flex: 0.07,
-        flexDirection: "row"
+        flexDirection: "row",
       },
       appIcon: {
         flex: 0.3,
@@ -102,9 +102,9 @@ keyExtractor = (item,index)=>index.toString();
         justifyContent: "center"
       },
       appTitleText: {
-        color: "white",
+        color: "yellow",
         fontSize: RFValue(28),
-        fontFamily: "Bubblegum-Sans"
+        fontWeight:'bold'
       },
       cardContainer: {
         flex: 0.93
