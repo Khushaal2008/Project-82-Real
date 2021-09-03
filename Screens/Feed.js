@@ -56,7 +56,7 @@ keyExtractor = (item,index)=>index.toString();
                   ></Image>
                 </View>
                 <View style={styles.appTitleTextContainer}>
-                  <Text style={styles.appTitleText}>Storytelling App</Text>
+                  <Text style={styles.appTitleText}>Spectagram</Text>
                 </View>
               </View>
               <View style={styles.cardContainer}>
